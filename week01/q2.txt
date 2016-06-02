@@ -1,0 +1,6 @@
+I picked vi (vim) to use because this is what I am already most familiar with.
+I have been able to do everything I need to in using it for the past couple
+years, and it is the quickest way to edit for me. Features such as the syntax
+coloring when I am writing code are quite helpful in producing functional
+scripts, as it can help point out things such as a missed end-quote when I am
+typing.
