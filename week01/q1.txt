@@ -1,0 +1,4 @@
+To create my git repository, I did the following:
+
+[jmart166@bfx ~]$ git init ./proj
+Initialized empty Git repository in /home/jmart166/proj/.git/
