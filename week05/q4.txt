@@ -1,0 +1,33 @@
+The following table descriptions correspond to my data model for a database for this question:
+
+Table Name: gene
+Field_Name	Datatype	Notes
+gid	INT	primary key, combination of organism and gene because an organism has many genes and a gene can be found in many organisms
+name	VARCHAR(255)	gene name
+sequence	TEXT	Full gene sequence
+
+
+Table Name: organism
+Field_Name	Datatype	Notes
+oid	INT	primary key, lookup table
+latin_name	VARCHAR(255)
+
+
+Table Name: rna
+Field_Name	Datatype	Notes
+transcript_id	INT	primary key
+gid	INT	foreign key from 'gene' table, transcript has one gene it comes from, but gene can have many transcripts
+start	INT	start position of ORF that produces this transcript in Full gene sequence from 'gene' table
+stop	INT	end position of ORF in Full gene sequence
+
+
+Table Name: expression
+Field_Name	Datatype	Notes
+eid	INT	primary key, combination of transcript_id from 'rna' and Tissue id because tissues express multiple transcripts and a transcript can be expressed in many tissues
+elevel	INT	level of expression for this rna/tissue
+
+
+Table Name: tissue
+Field_Name	Datatype	Notes
+tid	INT	primary key, lookup table
+name	VARCHAR(255)	specific name of the tissue
