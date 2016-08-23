@@ -1,0 +1,264 @@
+LOCUS       NG_007084               3647 bp    DNA     linear   PRI 14-AUG-2016
+DEFINITION  Homo sapiens apolipoprotein E (APOE), RefSeqGene on chromosome 19.
+ACCESSION   NG_007084 REGION: 4968..8614
+VERSION     NG_007084.2  GI:163954918
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3647)
+  AUTHORS   Greyshock,N., Guyton,J.R., Sebastian,S. and Okorodudu,D.
+  TITLE     APOE p.Leu167del-Related Lipid Disorders
+  JOURNAL   (in) Pagon RA, Adam MP, Ardinger HH, Wallace SE, Amemiya A, Bean
+            LJH, Bird TD, Fong CT, Mefford HC, Smith RJH and Stephens K (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   24921113
+REFERENCE   2  (bases 1 to 3647)
+  AUTHORS   Bird,T.D.
+  TITLE     Alzheimer Disease Overview
+  JOURNAL   (in) Pagon RA, Adam MP, Ardinger HH, Wallace SE, Amemiya A, Bean
+            LJH, Bird TD, Fong CT, Mefford HC, Smith RJH and Stephens K (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301340
+REFERENCE   3  (bases 1 to 3647)
+  AUTHORS   McLean,J.W., Elshourbagy,N.A., Chang,D.J., Mahley,R.W. and
+            Taylor,J.M.
+  TITLE     Human apolipoprotein E mRNA. cDNA cloning and nucleotide sequencing
+            of a new variant
+  JOURNAL   J. Biol. Chem. 259 (10), 6498-6504 (1984)
+   PUBMED   6327682
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC011481.4.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Dec 28, 2007 this sequence version replaced gi:160358361.
+            
+            Summary: The protein encoded by this gene is a major apoprotein of
+            the chylomicron. It binds to a specific liver and peripheral cell
+            receptor, and is essential for the normal catabolism of
+            triglyceride-rich lipoprotein constituents. This gene maps to
+            chromosome 19 in a cluster with the related apolipoprotein C1 and
+            C2 genes. Mutations in this gene result in familial
+            dysbetalipoproteinemia, or type III hyperlipoproteinemia (HLP III),
+            in which increased plasma cholesterol and triglycerides are the
+            consequence of impaired clearance of chylomicron and VLDL remnants.
+            [provided by RefSeq, Jun 2016].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-10612             AC011481.4         43606-54217
+FEATURES             Location/Qualifiers
+     source          1..3647
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+                     /map="19q13.2"
+     STS             <1..562
+                     /standard_name="PMC310963P1"
+                     /db_xref="UniSTS:272824"
+     gene            1..3647
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /note="apolipoprotein E"
+                     /db_xref="GeneID:348"
+                     /db_xref="HGNC:HGNC:613"
+                     /db_xref="MIM:107741"
+     mRNA            join(1..93,854..919,2012..2204,2785..3647)
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /product="apolipoprotein E, transcript variant 2"
+                     /transcript_id="NM_000041.3"
+                     /db_xref="GI:705044057"
+                     /db_xref="GeneID:348"
+                     /db_xref="HGNC:HGNC:613"
+                     /db_xref="MIM:107741"
+     exon            1..93
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+                     /number=1
+     STS             28..346
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:433407"
+                     /db_xref="UniSTS:157196"
+     exon            854..919
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+                     /number=2
+     CDS             join(877..919,2012..2204,2785..3502)
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /note="isoform b precursor is encoded by transcript
+                     variant 2; apolipoprotein E3"
+                     /codon_start=1
+                     /product="apolipoprotein E isoform b precursor"
+                     /protein_id="NP_000032.1"
+                     /db_xref="GI:4557325"
+                     /db_xref="CCDS:CCDS12647.1"
+                     /db_xref="GeneID:348"
+                     /db_xref="HGNC:HGNC:613"
+                     /db_xref="MIM:107741"
+                     /translation="MKVLWAALLVTFLAGCQAKVEQAVETEPEPELRQQTEWQSGQRW
+                     ELALGRFWDYLRWVQTLSEQVQEELLSSQVTQELRALMDETMKELKAYKSELEEQLTP
+                     VAEETRARLSKELQAAQARLGADMEDVCGRLVQYRGEVQAMLGQSTEELRVRLASHLR
+                     KLRKRLLRDADDLQKRLAVYQAGAREGAERGLSAIRERLGPLVEQGRVRAATVGSLAG
+                     QPLQERAQAWGERLRARMEEMGSRTRDRLDEVKEQVAEVRAKLEEQAQQIRLQAEAFQ
+                     ARLKSWFEPLVEDMQRQWAGLVEKVQAAVGTSAAPVPSDNH"
+     STS             897..1885
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC310963P2"
+                     /db_xref="UniSTS:272825"
+     STS             1077..1471
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:178385"
+                     /db_xref="UniSTS:154995"
+     STS             1948..2335
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:181631"
+                     /db_xref="UniSTS:155318"
+     exon            2012..2204
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+                     /number=3
+     STS             2077..2214
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC310963P3"
+                     /db_xref="UniSTS:272826"
+     STS             2134..2821
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC99927P2"
+                     /db_xref="UniSTS:273705"
+     exon            2785..3647
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /inference="alignment:Splign:2.0.8"
+                     /number=4
+     STS             2807..3105
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:171177"
+                     /db_xref="UniSTS:154776"
+     STS             2840..3105
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:181693"
+                     /db_xref="UniSTS:155329"
+     STS             2869..3096
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:169570"
+                     /db_xref="UniSTS:154765"
+     STS             2872..3097
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:438097"
+                     /db_xref="UniSTS:157265"
+     STS             2873..3143
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:196979"
+                     /db_xref="UniSTS:155901"
+     STS             2882..3211
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="GDB:177380"
+                     /db_xref="UniSTS:154875"
+     STS             2882..3099
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC117303P1"
+                     /db_xref="UniSTS:270328"
+     STS             3074..3217
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="STS-N29699"
+                     /db_xref="UniSTS:34644"
+     STS             3201..3401
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="PMC310963P4"
+                     /db_xref="UniSTS:272827"
+     STS             3288..3419
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="RH11470"
+                     /db_xref="UniSTS:72925"
+     STS             3384..3514
+                     /gene="APOE"
+                     /gene_synonym="AD2; APO-E; ApoE4; LDLCQ5; LPG"
+                     /standard_name="STS-K00396"
+                     /db_xref="UniSTS:64138"
+ORIGIN      
+        1 gggacagggg gagccctata attggacaag tctgggatcc ttgagtccta ctcagcccca
+       61 gcggaggtga aggacgtcct tccccaggag ccggtgagaa gcgcagtcgg gggcacgggg
+      121 atgagctcag gggcctctag aaagagctgg gaccctggga acccctggcc tccaggtagt
+      181 ctcaggagag ctactcgggg tcgggcttgg ggagaggagg agcgggggtg aggcaagcag
+      241 caggggactg gacctgggaa gggctgggca gcagagacga cccgacccgc tagaaggtgg
+      301 ggtggggaga gcagctggac tgggatgtaa gccatagcag gactccacga gttgtcacta
+      361 tcatttatcg agcacctact gggtgtcccc agtgtcctca gatctccata actggggagc
+      421 caggggcagc gacacggtag ctagccgtcg attggagaac tttaaaatga ggactgaatt
+      481 agctcataaa tggaacacgg cgcttaactg tgaggttgga gcttagaatg tgaagggaga
+      541 atgaggaatg cgagactggg actgagatgg aaccggcggt ggggaggggg tggggggatg
+      601 gaatttgaac cccgggagag gaagatggaa ttttctatgg aggccgacct ggggatgggg
+      661 agataagaga agaccaggag ggagttaaat agggaatggg ttgggggcgg cttggtaaat
+      721 gtgctgggat taggctgttg cagataatgc aacaaggctt ggaaggctaa cctggggtga
+      781 ggccgggttg gggccgggct gggggtggga ggagtcctca ctggcggttg attgacagtt
+      841 tctccttccc cagactggcc aatcacaggc aggaagatga aggttctgtg ggctgcgttg
+      901 ctggtcacat tcctggcagg tatgggggcg gggcttgctc ggttcccccc gctcctcccc
+      961 ctctcatcct cacctcaacc tcctggcccc attcaggcag accctgggcc ccctcttctg
+     1021 aggcttctgt gctgcttcct ggctctgaac agcgatttga cgctctctgg gcctcggttt
+     1081 cccccatcct tgagatagga gttagaagtt gttttgttgt tgttgtttgt tgttgttgtt
+     1141 ttgttttttt gagatgaagt ctcgctctgt cgcccaggct ggagtgcagt ggcgggatct
+     1201 cggctcactg caagctccgc ctcccaggtc cacgccattc tcctgcctca gcctcccaag
+     1261 tagctgggac tacaggcaca tgccaccaca cccgactaac ttttttgtat tttcagtaga
+     1321 gacggggttt caccatgttg gccaggctgg tctggaactc ctgacctcag gtgatctgcc
+     1381 cgtttcgatc tcccaaagtg ctgggattac aggcgtgagc caccgcacct ggctgggagt
+     1441 tagaggtttc taatgcattg caggcagata gtgaatacca gacacggggc agctgtgatc
+     1501 tttattctcc atcaccccca cacagccctg cctggggcac acaaggacac tcaatacatg
+     1561 cttttccgct gggcgcggtg gctcacccct gtaatcccag cactttggga ggccaaggtg
+     1621 ggaggatcac ttgagcccag gagttcaaca ccagcctggg caacatagtg agaccctgtc
+     1681 tctactaaaa atacaaaaat tagccaggca tggtgccaca cacctgtgct ctcagctact
+     1741 caggaggctg aggcaggagg atcgcttgag cccagaaggt caaggttgca gtgaaccatg
+     1801 ttcaggccgc tgcactccag cctgggtgac agagcaagac cctgtttata aatacataat
+     1861 gctttccaag tgattaaacc gactcccccc tcaccctgcc caccatggct ccaaagaagc
+     1921 atttgtggag caccttctgt gtgcccctag gtactagatg cctggacggg gtcagaagga
+     1981 ccctgaccca ccttgaactt gttccacaca ggatgccagg ccaaggtgga gcaagcggtg
+     2041 gagacagagc cggagcccga gctgcgccag cagaccgagt ggcagagcgg ccagcgctgg
+     2101 gaactggcac tgggtcgctt ttgggattac ctgcgctggg tgcagacact gtctgagcag
+     2161 gtgcaggagg agctgctcag ctcccaggtc acccaggaac tgaggtgagt gtccccatcc
+     2221 tggcccttga ccctcctggt gggcggctat acctccccag gtccaggttt cattctgccc
+     2281 ctgtcgctaa gtcttggggg gcctgggtct ctgctggttc tagcttcctc ttcccatttc
+     2341 tgactcctgg ctttagctct ctggaattct ctctctcagc tttgtctctc tctcttccct
+     2401 tctgactcag tctctcacac tcgtcctggc tctgtctctg tccttcccta gctcttttat
+     2461 atagagacag agagatgggg tctcactgtg ttgcccaggc tggtcttgaa cttctgggct
+     2521 caagcgatcc tcccgcctcg gcctcccaaa gtgctgggat tagaggcatg agccaccttg
+     2581 cccggcctcc tagctccttc ttcgtctctg cctctgccct ctgcatctgc tctctgcatc
+     2641 tgtctctgtc tccttctctc ggcctctgcc ccgttccttc tctccctctt gggtctctct
+     2701 ggctcatccc catctcgccc gccccatccc agcccttctc cccgcctccc actgtgcgac
+     2761 accctcccgc cctctcggcc gcagggcgct gatggacgag accatgaagg agttgaaggc
+     2821 ctacaaatcg gaactggagg aacaactgac cccggtggcg gaggagacgc gggcacggct
+     2881 gtccaaggag ctgcaggcgg cgcaggcccg gctgggcgcg gacatggagg acgtgtgcgg
+     2941 ccgcctggtg cagtaccgcg gcgaggtgca ggccatgctc ggccagagca ccgaggagct
+     3001 gcgggtgcgc ctcgcctccc acctgcgcaa gctgcgtaag cggctcctcc gcgatgccga
+     3061 tgacctgcag aagcgcctgg cagtgtacca ggccggggcc cgcgagggcg ccgagcgcgg
+     3121 cctcagcgcc atccgcgagc gcctggggcc cctggtggaa cagggccgcg tgcgggccgc
+     3181 cactgtgggc tccctggccg gccagccgct acaggagcgg gcccaggcct ggggcgagcg
+     3241 gctgcgcgcg cggatggagg agatgggcag ccggacccgc gaccgcctgg acgaggtgaa
+     3301 ggagcaggtg gcggaggtgc gcgccaagct ggaggagcag gcccagcaga tacgcctgca
+     3361 ggccgaggcc ttccaggccc gcctcaagag ctggttcgag cccctggtgg aagacatgca
+     3421 gcgccagtgg gccgggctgg tggagaaggt gcaggctgcc gtgggcacca gcgccgcccc
+     3481 tgtgcccagc gacaatcact gaacgccgaa gcctgcagcc atgcgacccc acgccacccc
+     3541 gtgcctcctg cctccgcgca gcctgcagcg ggagaccctg tccccgcccc agccgtcctc
+     3601 ctggggtgga ccctagttta ataaagattc accaagtttc acgcatc
+//
+

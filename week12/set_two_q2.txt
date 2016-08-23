@@ -1,0 +1,56 @@
+friends
+	-id	PK INT		Primary key for your friend
+	-fname VARCHAR		Your friend's first name
+	-lname VARCHAR		Your friend's last name
+	-FavGiftType VARCHAR	Your friend's favorite gift type (electronics, power tools, beauty items, etc.)
+
+gifts
+	-id	PK int		Primary key for a gift item
+	-name VARCHAR		Name of the gift
+	-description TEXT	Product description
+	-GiftType VARCHAR	Type of gift (electronics, power tools, beauty items, etc.)
+
+retailers
+	-id 	PK int		Primary key for retailer
+	-name VARCHAR		Retailer name
+	-website VARCHAR	Web address for retailer
+
+ret_gift_prices
+	-id	PK int		Primary key for a retailer's gift price
+	-gid	FK int		Foreign key for the gift from gifts.id
+	-rid	FK int		Foreign key for the retailer from retailers.id
+	-price VARCHAR		Price of the gift at the retailer
+	-datestart DATE		Beginning effective date of retailer price
+	-dateend DATE		End date for retailer price (if on sale, null for regular price)
+
+
+SQL:
+
+CREATE TABLE friends (
+   id INTEGER NOT NULL PRIMARY KEY,
+   fname VARCHAR(255) NOT NULL,
+   lname VARCHAR(255),
+   favgifttype VARCHAR(255)
+);
+
+CREATE TABLE gifts (
+   id INTEGER NOT NULL PRIMARY KEY,
+   name VARCHAR(255) NOT NULL,
+   description TEXT,
+   gifttype VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE retailers (
+   id INTEGER NOT NULL PRIMARY KEY,
+   name VARCHAR(255) NOT NULL,
+   website VARCHAR(255)
+);
+
+CREATE TABLE retgiftprices (
+   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+   gid INTEGER NOT NULL,
+   rid INTEGER NOT NULL,
+   price VARCHAR(255),
+   datestart DATE NOT NULL,
+   dateend DATE
+);
